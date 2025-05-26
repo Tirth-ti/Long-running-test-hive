@@ -1,8 +1,8 @@
 {
-    "version": 2,
-    "functions": {
-      "api/long_running_task.ts": {
-        "runtime": "vercel-node@3.0.0"
-      }
+  "version": 2,
+  "functions": {
+    "api/long_running_task.ts": {
+      "runtime": "nodejs18.x"
     }
   }
+}
